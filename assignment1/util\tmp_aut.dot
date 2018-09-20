@@ -1,9 +1,0 @@
-digraph G {
-	"p21" [shape=ellipse];
-	"p22" [shape=ellipse];
-	"p21" -> "p22" [label="c"];
-	"p22" -> "p21" [label="d"];
-	"p22" -> "p21" [label="e"];
-	init [shape=plaintext, label=""];
-	init -> "p21";
-}
